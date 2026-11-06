@@ -1,6 +1,6 @@
 ## Beim Goods Livestream Latest  <img src="assets/beimgoods-livestream-chat-spin.gif" width="64" height="64" alt="Beim Goods Live Stream Chat TTS">
 
-Brought to you by [beimgoods.com](https://beimgoods.com/blog/)
+Brought to you by [Beim Goods](https://beimgoods.com/)
 
 ### Latest posts/news/updates
 <!-- BLOG-POST-LIST:START -->
