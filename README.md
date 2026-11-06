@@ -1,4 +1,4 @@
-## Beim Goods Latest <img src="assets/beimgoods-purplegem-emoji.png" width="16" height="16" alt="Beim Goods Live Stream Chat TTS">
+## Beim Goods Latest <img src="assets/beimgoods-chat-emoji.png" width="16" height="16" alt="Beim Goods Live Stream Chat TTS">
 
 Brought to you by [beimgoods.com](https://beimgoods.com/blog/)
 
