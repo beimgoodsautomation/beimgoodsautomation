@@ -1,0 +1,39 @@
+
+name: Beim Goods Latest
+
+on:
+  schedule:
+    - cron: "17 6 * * *"     # daily at 06:17 UTC
+  workflow_dispatch:          # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blog-post-list
+  cancel-in-progress: true
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Update README with latest posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://beimgoods.com/blog/feed.xml"
+          max_post_count: 10
+          # Keep the feed's own order (newest first). A few pubDates in the feed
+          # are non-standard ("Sept", "Thur", "Fri ,"), which can break date sorting.
+          disable_sort: true
+          remove_duplicates: true
+          template: "- [$title]($url)$newline"
+          readme_path: ./README.md
+          commit_message: "Update latest Beim Goods blog posts"
+          committer_username: "blog-post-bot"
+          committer_email: "blog-post-bot@example.com"
+          user_agent: "beimgoods-blog-sync"
+          accept_header: "application/rss+xml"
