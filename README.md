@@ -1,4 +1,4 @@
-## Beim Goods Livestream Latest  <img src="assets/beimgoods-chat-emoji.png" width="64" height="64" alt="Beim Goods Live Stream Chat TTS">
+## Beim Goods Livestream Latest  <img src="assets/beimgoods-livestream-chat-spin.gif" width="64" height="64" alt="Beim Goods Live Stream Chat TTS">
 
 Brought to you by [beimgoods.com](https://beimgoods.com/blog/)
 
