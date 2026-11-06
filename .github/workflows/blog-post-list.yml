@@ -31,6 +31,7 @@ jobs:
           disable_sort: true
           remove_duplicates: true
           template: '<img src="assets/beimgoods-purplegem-emoji.png" width="16" height="16" alt=""> [$title]($url)<br>$newline'
+          tag_post_pre_newline: true
           readme_path: ./README.md
           commit_message: "Update latest Beim Goods blog posts"
           committer_username: "blog-post-bot"
